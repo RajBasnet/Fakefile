@@ -1,0 +1,13 @@
+
+abc: a b c
+	touch abc
+
+a:
+	touch a
+
+b:
+	touch b
+
+c:
+	touch c
+

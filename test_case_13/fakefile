@@ -1,0 +1,9 @@
+
+root: open
+	./open abc
+	./open abc | cat
+	cat | ./open abc | cat
+
+open:
+	gcc open.c -o open
+

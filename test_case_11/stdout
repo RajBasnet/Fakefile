@@ -1,0 +1,9 @@
+echo before true
+before true
+true
+echo after true
+after true
+echo before false
+before false
+false
+

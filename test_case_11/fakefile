@@ -1,0 +1,13 @@
+
+root: test_1 test_2
+
+test_1:
+	echo before true
+	true
+	echo after true
+
+test_2:
+	echo before false
+	false
+	echo after false
+

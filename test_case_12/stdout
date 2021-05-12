@@ -1,0 +1,8 @@
+gcc time.c -o time
+./time ./fake sleep_1
+sleep 1 | sleep 3
+time: 3.0
+./time ./fake sleep_3
+sleep 3 | sleep 1
+time: 3.0
+

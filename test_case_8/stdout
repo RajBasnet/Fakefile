@@ -1,0 +1,6 @@
+gcc -E hello.c -o hello.i
+gcc -c hello.i -o hello.o
+gcc hello.o -o hello
+rm hello.o
+gcc -c hello.i -o hello.o
+gcc hello.o -o hello

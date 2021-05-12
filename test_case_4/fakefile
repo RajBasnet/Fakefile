@@ -1,0 +1,8 @@
+
+test: abc
+	tac < abc > test
+	cat test
+
+abc:
+	echo -e "a\\nb\\nc" > abc
+

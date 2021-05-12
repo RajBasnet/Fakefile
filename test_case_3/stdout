@@ -1,0 +1,16 @@
+echo a > a
+echo b > b
+cat a b > c
+echo "contents of a:"
+contents of a:
+cat a
+a
+echo "contents of b:"
+contents of b:
+cat b
+b
+echo "contents of c:"
+contents of c:
+cat c
+a
+b

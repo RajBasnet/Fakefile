@@ -1,0 +1,3 @@
+
+test:
+	echo -e "a\nb\nc" | tac | tac | cat

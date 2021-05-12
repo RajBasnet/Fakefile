@@ -1,0 +1,6 @@
+echo -e "a\\nb\\nc" > abc
+tac < abc > test
+cat test
+c
+b
+a

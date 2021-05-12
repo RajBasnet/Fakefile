@@ -1,0 +1,20 @@
+
+test: test1 test2
+
+hello.i: hello.c
+	gcc -E hello.c -o hello.i
+
+hello.o: hello.i
+	gcc -c hello.i -o hello.o
+
+hello: hello.o
+	gcc hello.o -o hello
+
+test1: hello
+
+setup:
+	rm hello.o
+
+test2: setup hello
+
+

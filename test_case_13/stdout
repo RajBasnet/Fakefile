@@ -1,0 +1,8 @@
+gcc open.c -o open
+./open abc
+fd == 3
+./open abc | cat
+fd == 3
+cat | ./open abc | cat
+fd == 3
+

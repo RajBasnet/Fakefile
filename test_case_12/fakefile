@@ -1,0 +1,14 @@
+
+root: time
+	./time ./fake sleep_1
+	./time ./fake sleep_3
+
+sleep_1:
+	sleep 1 | sleep 3
+
+sleep_3:
+	sleep 3 | sleep 1
+
+time:
+	gcc time.c -o time
+

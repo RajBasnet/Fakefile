@@ -1,0 +1,18 @@
+
+test: c
+	echo "contents of a:"
+	cat a
+	echo "contents of b:"
+	cat b
+	echo "contents of c:"
+	cat c
+
+c: a b
+	cat a b > c
+
+a:
+	echo a > a
+
+b:
+	echo b > b
+
